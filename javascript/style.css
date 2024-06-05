@@ -1,0 +1,117 @@
+body{
+    width: 971px;
+    margin: 0 auto;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header *{
+    margin:0;
+    padding:0;
+}
+.main{
+    background-color: #58444d;
+}
+
+.main .article{
+    background-color: aliceblue;
+    min-height: 208px;
+}
+
+.article h2{
+    margin:0;
+    padding-left: 10px;
+    background-image: linear-gradient(#aeaeb3, #888694, #aeaeb3);
+}
+
+.article p{
+    margin:10px 0;
+    padding-left: 10px;
+}
+
+.article a{
+    padding-left: 10px;
+}
+
+.article a:active{
+    color:black;
+}
+
+.article a:visited{
+    color:black;
+}
+
+.section{
+    display: flex;
+    column-gap: 2rem;
+    align-items: center;
+    padding: 10px;
+}
+.article{
+    flex:2;
+}
+
+.section img{
+    height:200px;
+    flex:1;
+    border: solid 4px silver;
+}
+
+.content{
+    display: flex;
+    column-gap: 2rem;
+    align-items: center;
+    padding: 10px;
+}
+
+.card{
+   flex:1;
+   display: flex;
+   flex-direction: column;
+}
+
+.card img{
+    width:30px;
+    height:30px;
+}
+
+.card > img{
+    width:100%;
+    height:auto;
+}
+.content .card h2{
+    margin:0;
+    padding-left: 10px;
+    background-image: linear-gradient(#aeaeb3, #888694, #aeaeb3);
+}
+.content .card p{
+    background-color: aliceblue;
+    margin: 0px;
+    padding: 0px;
+}
+.content .card .photos{
+    background-color: blanchedalmond;
+}
+ button{
+    display: block;
+    margin: auto;
+    border: 1px solid black; 
+    border-radius: 4px;
+    background-color: rgb(48, 211, 48);
+}
+.foter p{
+    text-align: center;
+}
+.foter img{
+    width: 20px;
+    height: 20px;
+}
+.foter a{
+    color: black ;
+}
+.foter{
+    text-align: center;
+}
